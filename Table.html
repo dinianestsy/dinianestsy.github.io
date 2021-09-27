@@ -1,22 +1,69 @@
 <html>
-<head> </head
-<body>
-  <style>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
 }
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+header{
+text-align:center;
+ background-color:#D3D3D3;
+}
 </style>
+</head>
+<body>
+<header>
+
+<h1>Pemprograman WEB </h1>
+
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="daftar.html">Daftar</a></li>
+  <li><a href="Table.html">presesnsi</a></li>
+ 
+</ul>
+</header>
+
+<body>
+ <section>
 <table border="1">
 <h2>Rekap Kehadiran</h2>
 <tr bgcolor="cyan">
-<th rowspan="2"> NO</th>
-<th width="180px" rowspan="2"> NAMA</th>
-<th width="150px" rowspan="2"> JK</th>
-<th rowspan="2"> KELAS</th>
-<th colspan="4"> KELAS</th>
+ <th rowspan="2">No</th>
+	 <th rowspan="2" width="200">Nama</th>
+	 <th rowspan="2" width="250">JK</th>
+	 <th rowspan="2" width="100">Kelas</th>
+	 <th colspan="9" >SEPTEMBER </th>
 </tr>
-<tr>
+
+<tr bgcolor="cyan">
 <td> 1</td>
 <td>2 </td>
 <td>3 </td>
@@ -41,6 +88,11 @@ table, th, td {
 <td>XII RPL1 </td>
 </tr>
 </table>
+</section>
+
+<footer>
+<p> Created by Dinianes </p>
+</footer>
 
 </body
 </html>
