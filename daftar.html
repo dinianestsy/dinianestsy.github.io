@@ -1,6 +1,6 @@
 <html>
 <head>
-<style>
+ <style>
 ul {
   list-style-type: none;
   margin: 0;
@@ -22,32 +22,61 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+  background-color: #006400;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('bg sky blue.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .active {
   background-color: #04AA6D;
 }
 header{
-text-align:center;
- background-color:#D3D3D3;
+  text-align: center;
+  background-color: white;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 97%;
+  background-color: transparent;
+  height: 1000px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  padding: 9px;
+  text-align: center;
+  color: white;
 }
 </style>
 </head>
 <body>
-<header>
 
-<h1>Pemprograman WEB </h1>
-
-<ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="daftar.html">Daftar</a></li>
-  <li><a href="Table.html">presensi</a></li>
- 
-</ul>
+</style>
+<header> <br>
+<h1 align="center" style="color: #1E90FF; font-size:240%;"> PEMPROGRAMAN WEB </h1>
+  <ul>
+   <li><a <a class="active" href="home.html">Home</a></li>
+   <li><a href="daftar.html">Daftar</a></li>
+   <li><a href="absensi.html">Presensi</a></li>
+   <li><a href="login.html">Login</a></li>
+  </ul>
 </header>
 
-<body>
  <section>
  	<form action="#">
  		<h2>FROM DAFTAR</h2>
@@ -80,9 +109,12 @@ text-align:center;
  		<label>Olahraga</label><br><br>
 
  		<input type="submit" value="submit">
+</section>
 
-
- 	</form>
 <footer>
-<p> Created by Dinianes </p>
+  <p>Create by Dini Anestasya</p>
+  <p> XII RPL 1 </p>
 </footer>
+
+</body>
+<html>
